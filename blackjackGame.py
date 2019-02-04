@@ -10,6 +10,30 @@
 
 import random
 
+'''
+Game Specifications: 
+Dealer: Computer
+Player: Human
+Start with normal deck of cards which will be represented in Python using OOP
+- Deck of 52 cards.
+- Bank Roll (Total Balance)
+Rules:
+1) Player goes first in the gameplay.
+2) Player starts with 2 cards face up.
+3) Dealer starts with 1 card face up and 1 card face down.
+4) Player GOAL: Get closer to a total value of 21 than the dealer does - Sum of current Face up cards which the human has.
+5) Possible Actions: a) HIT (Receive another card)  b) STAY (Stop receiving Cards)
+6) HIT for more cards from DECK
+*) Ignore actions like "Insurance", "Split" or "Double Down".
+7) After Player turn: if the player is still under 21, dealer then hits until they either beat the player or the dealer busts (go over 21).
+8) After Player turn: If player keeps hitting goes over 21, they bust and lost the bet. The game is then over and dealer collects the money.
+9) If the Player decides to stay and computer keeps hitting and gets below 21 and above player then player loses.
+
+Special Rules:
+1) Face Cards (Jack, Queen, King) count as a value of 10.
+2) Aces can count as either 1 or 11 whichever vale is preferable to the player.
+'''
+
 ## Define Cards
 suits = ['Heart','Diamond','Spade','Club']
 ranks = ['Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten','Jack','Queen','King','Ace']
