@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #=========================================================================#
-# Author      : Ankit Sharma                                              #
+# Author      : Ankit Vashistha                                           #
 # Script      : ticTacToe.py                                              #
 # Py Versions : 3.5                                                       #
 # Required    : IPython.display                                           #
