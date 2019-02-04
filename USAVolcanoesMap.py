@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 #=========================================================================#
-# Author      : Ankit Sharma                                              #
+# Author      : Ankit Vashistha                                           #
 # Script      : USAVolcanoesMap.py                                        #
 # Py Versions : 3.5                                                       #
 # Required    : folium, pandas                                            #
